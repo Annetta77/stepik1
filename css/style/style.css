@@ -1,0 +1,28 @@
+.animated-element {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  border-radius: 1em;
+  animation: anima 3s forwards;
+  transition: 3s;
+  position: absolute;
+}
+
+@keyframes anima {
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  50% {
+    left: 100%;
+    top: 100%;
+    background-color: rgb(249, 90, 116);
+  }
+
+  100% {
+    left: 0;
+    top: 0;
+    background-color: pink;
+  }
+}
